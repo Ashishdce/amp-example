@@ -3,15 +3,24 @@
   "version": "1.0.0",
   "description": "An example node app for AMP",
   "main": "index.js",
+  "engines": {
+    "node": "6.10.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "ashish jangid",
   "dependencies" : {
-    "express"    : "~4.7.2",
-    "morgan"     : "~1.2.2",
-    "body-parser": "~1.5.2",
-    "method-override": "~2.1.2"
+    "express"    : "~4.7.2"
     },
+     "repository": {
+    "type": "git",
+    "url": "https://github.com/Ashishdce/amp-example"
+  },
+  "keywords": [
+    "amp",
+    "heroku",
+    "amp-example"
+  ],
   "license": "ISC"
 }
